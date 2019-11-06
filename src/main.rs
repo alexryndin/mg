@@ -15,5 +15,4 @@ fn main() {
         println!("Error occured: {}, abort", e);
         process::exit(1);
     };
-
 }
