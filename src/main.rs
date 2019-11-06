@@ -5,7 +5,6 @@ use mg::Config;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
 
     let config = Config::new(&args).unwrap_or_else(|err| {
         println!("Error occured: {}, abort", err);
